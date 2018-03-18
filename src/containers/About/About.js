@@ -31,9 +31,6 @@ const TriangleWrapper = styled.div`
   ${media.tablet`
     width: 100%;
   `};
-  ${media.phone`
-    display: none;
-  `};
 `;
 
 const Triangle = styled.svg`
@@ -46,6 +43,10 @@ const Triangle = styled.svg`
   & polygon {
     fill: ${pink};
   }
+
+  ${media.phone`
+    display: none;
+  `};
 `;
 
 const TextWrapper = styled.div`

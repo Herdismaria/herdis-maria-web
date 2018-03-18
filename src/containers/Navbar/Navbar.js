@@ -12,6 +12,7 @@ const NavWrapper = styled.nav`
   width: 60%;
 
   ${media.phone`
+  margin-top: 10px;
     width: 100%;
   `};
 `;
