@@ -9,7 +9,7 @@ const NavWrapper = styled.nav`
   justify-content: space-around;
   margin-top: 10px;
   position: relative;
-  width: 60%;
+  width: 50%;
 
   ${media.phone`
   margin-top: 10px;

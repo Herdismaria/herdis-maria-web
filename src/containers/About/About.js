@@ -60,7 +60,7 @@ const TextWrapper = styled.div`
 
 class About extends Component {
   componentDidMount() {
-    setTimeout(this.props.hideSlider, 300);
+    setTimeout(this.props.hideSlider, 400);
   }
 
   render() {

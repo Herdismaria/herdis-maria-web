@@ -17,7 +17,7 @@ export const H1 = styled.h1`
   `};
 
   ${media.tablet`
-    font-size: 3rem;
+    font-size: 2.5rem;
   `};
 `;
 
@@ -28,6 +28,10 @@ export const H2 = styled.h2`
   position: relative;
   text-align: ${({ align }) => (align ? align : "center")};
   z-index: 2;
+
+  ${media.tablet`
+    font-size: 1rem;
+  `};
 `;
 
 export const H3 = styled.h3`

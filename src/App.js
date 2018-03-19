@@ -7,6 +7,8 @@ import Home from "./containers/Home/Home";
 import About from "./containers/About/About";
 import Skills from "./containers/Skills/Skills";
 import Navbar from "./containers/Navbar/Navbar";
+import SocialBar from "./components/SocialBar";
+
 import { withRouter } from "react-router-dom";
 const NavBarWithRouter = withRouter(Navbar);
 
@@ -103,6 +105,7 @@ class App extends Component {
                 />
               ))}
             </Switch>
+            <SocialBar />
           </ContentWrapper>
           <NavBarWithRouter routes={routes} showSlider={this.showSlider} />
         </Screen>
